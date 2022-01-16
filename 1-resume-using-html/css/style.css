@@ -1,0 +1,75 @@
+h1 {
+  font-size: 40px;
+  padding: 10px;
+}
+
+body {
+  background-color: grey;
+  background-image: url("../images/pic\ \(71\).jpg");
+  background-attachment: scroll;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px 40px;
+}
+
+h2 {
+  text-transform: uppercase;
+  background-color: #ccc;
+  padding: 8px 5px;
+  margin-bottom: 10px;
+  border-bottom: solid 1px #000;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.header-para {
+  padding: 10px 0 30px;
+  line-height: 1.5;
+}
+
+.table-style-1 {
+    width: 100%;
+}
+
+.table-style-1 tr td,
+.table-style-1 tr th {
+  border: solid 1px #ccc;
+  padding: 10px 20px;
+}
+
+.table-style-1 tr th{
+    background-color: #f1f1f1;
+}
+
+
+
+.list-style-1 li{
+    list-style: none;
+    padding-left: 30px;
+
+}
+
+.list-style-1 li::before{
+    content: "";
+    display: inline-block;
+    background: rgb(2, 14, 66);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    left: -10px;
+    top: -2px;
+    position: relative;
+}
